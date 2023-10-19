@@ -1,0 +1,5 @@
+.ResumeModal form input,
+.ResumeModal form select,
+.ResumeModal form textarea{
+    margin-bottom: .5em;
+}

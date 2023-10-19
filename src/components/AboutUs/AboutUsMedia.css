@@ -1,0 +1,19 @@
+@media screen and (max-width: 991px) {
+    .AboutUs{
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .AboutUs img{
+        width: 80%;
+    }
+    .AboutUs .content{
+        width: 100%;
+        margin-top: 3em;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .AboutUs img{
+        width: 95%;
+    }
+}

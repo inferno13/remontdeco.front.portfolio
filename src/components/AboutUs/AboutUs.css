@@ -1,0 +1,22 @@
+.AboutUs{
+    display: flex;
+    align-items: center;
+    padding: 5em 0;
+}
+
+/*img*/
+.AboutUs img{
+    width: 50%;
+}
+
+/*content*/
+.AboutUs .content{
+    width: 50%;
+}
+.AboutUs .content p.small,
+.AboutUs .content h2{
+    margin-bottom: 30px;
+}
+.AboutUs .content h2{
+    font-weight: 800;
+}

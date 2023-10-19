@@ -1,0 +1,48 @@
+.BannerPage{
+    min-height: 80vh;
+    padding: 3em 0;
+}
+
+.BannerPage h1{
+    font-weight: 800;
+    margin-left: .25em;
+    margin-bottom: .5em;
+}
+
+.BannerPage p.text-muted{
+    max-width: 50%;
+}
+
+.BannerPage-Add {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .BannerPage p.text-muted{
+        max-width: 100%;
+    }
+}
+
+.BannerPage-Tr {
+    width: 100%;
+    display: flex;
+}
+.BannerPageTd-Logo {
+    border-radius: 5px;
+    width: 130px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.BannerPageTd-Image {
+    width: 100px;
+}
+.BannerPageTd-N {
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}

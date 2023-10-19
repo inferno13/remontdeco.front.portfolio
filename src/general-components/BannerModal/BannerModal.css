@@ -1,0 +1,5 @@
+.BannerModal form input,
+.BannerModal form select,
+.BannerModal form textarea{
+    margin-bottom: .5em;
+}

@@ -1,0 +1,57 @@
+.ServicesPage{
+    min-height: 80vh;
+    padding: 3em 0;
+}
+
+.ServicesPage h1{
+    font-weight: 800;
+    margin-bottom: .25em;
+}
+
+.ServicesPage p.text-muted{
+    max-width: 50%;
+}
+
+@media (max-width: 768px) {
+    .ServicesPage p.text-muted{
+        max-width: 100%;
+    }
+}
+
+.ServicesPageTr {
+    width: 100%;
+    display: flex;
+    margin: 10px;
+}
+.ServicesPageTdN {
+    border-radius: 5px;
+    width: 40px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.ServicesPageTdNaimen {
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.ServicesPageTdEdIzm {
+    border-radius: 5px;
+    width: 100px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.ServicesPageTdRub {
+    border-radius: 5px;
+    width: 100px;
+    text-align: right;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}

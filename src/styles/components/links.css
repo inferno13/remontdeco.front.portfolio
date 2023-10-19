@@ -1,0 +1,7 @@
+.def-link{
+    text-decoration: none;
+    color: var(--bs-dark);
+}
+.def-link:hover{
+    color: inherit;
+}

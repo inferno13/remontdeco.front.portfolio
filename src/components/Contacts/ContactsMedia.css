@@ -1,0 +1,24 @@
+@media screen and (max-width: 1200px){
+    .Contacts .inner h3{
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 991px){
+    .Contacts .block{
+        flex-wrap: wrap;
+        justify-content: center;
+        padding: 2em;
+    }
+    .Contacts .inner{
+        width: 50%;
+        margin: 1.5em 0;
+    }
+}
+
+@media screen and (max-width: 768px){
+    .Contacts .inner{
+        width: 100%;
+        margin: 1.5em 0;
+    }
+}

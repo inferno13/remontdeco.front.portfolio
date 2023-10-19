@@ -1,0 +1,17 @@
+.AdminLogin{
+    min-height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.AdminLogin form{
+    width: 300px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid var(--bs-gray-300);
+}
+
+.AdminLogin .form-control {
+    margin-bottom: 5px;
+}

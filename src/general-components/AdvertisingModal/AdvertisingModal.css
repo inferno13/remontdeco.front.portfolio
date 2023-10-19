@@ -1,0 +1,5 @@
+.AdvertisingModal form input,
+.AdvertisingModal form select,
+.AdvertisingModal form textarea{
+    margin-bottom: .5em;
+}

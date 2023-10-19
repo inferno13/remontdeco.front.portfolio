@@ -1,0 +1,18 @@
+@media screen and (max-width: 768px) {
+    .FooterBottom .container{
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+    .right{
+        margin-top: 2em;
+        flex-wrap: wrap;
+    }
+    .right .inner{
+        width: 100%;
+        margin-top: .5em;
+        margin-left: 0;
+    }
+    .right p.small{
+        text-align: left;
+    }
+}

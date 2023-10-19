@@ -1,0 +1,5 @@
+.ProfessionModal form input,
+.ProfessionModal form select,
+.ProfessionModal form textarea{
+    margin-bottom: .5em;
+}

@@ -1,0 +1,23 @@
+.yellow-but{
+    padding: .5em 1.5em;
+    color: var(--bs-dark);
+    background: var(--bs-yellow);
+    border-radius: var(--bs-radius);
+    border: none;
+    cursor: pointer;
+}
+.yellow-but:hover{
+    background: var(--bs-dark);
+    color: var(--bs-yellow);
+}
+.yellow-but:disabled{
+    background: var(--bs-dark);
+    color: var(--bs-yellow);
+    opacity: .5;
+    cursor: not-allowed;
+}
+.yellow-but.nd:hover,
+.yellow-but.show{
+    color: var(--bs-dark);
+    background: var(--bs-yellow);
+}

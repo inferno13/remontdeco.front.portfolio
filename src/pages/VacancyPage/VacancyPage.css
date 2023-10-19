@@ -1,0 +1,49 @@
+.VacancyPage{
+    min-height: 80vh;
+    padding: 3em 0;
+}
+
+.VacancyPage h1{
+    font-weight: 800;
+    margin-left: .25em;
+    margin-bottom: .5em;
+}
+
+
+.VacancyPage-Add {
+    float: right;
+}
+
+.VacancyPage p.text-muted{
+    max-width: 50%;
+}
+
+@media (max-width: 768px) {
+    .VacancyPage p.text-muted{
+        max-width: 100%;
+    }
+}
+
+.VacancyPage-Tr {
+    width: 100%;
+    display: flex;
+}
+.VacancyPageTd-Logo {
+    border-radius: 5px;
+    width: 100px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.VacancyPageTd-Image {
+    width: 80px;
+}
+.VacancyPageTd-N {
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}

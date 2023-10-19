@@ -1,0 +1,48 @@
+.ResumePage{
+    min-height: 80vh;
+    padding: 3em 0;
+}
+
+.ResumePage h1{
+    font-weight: 800;
+    margin-left: .25em;
+    margin-bottom: .5em;
+}
+
+.ResumePage p.text-muted{
+    max-width: 50%;
+}
+
+.ResumePage-Add {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .ResumePage p.text-muted{
+        max-width: 100%;
+    }
+}
+
+.ResumePage-Tr {
+    width: 100%;
+    display: flex;
+}
+.ResumePageTd-Logo {
+    border-radius: 5px;
+    width: 100px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.ResumePageTd-Image {
+    width: 80px;
+}
+.ResumePageTd-N {
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}

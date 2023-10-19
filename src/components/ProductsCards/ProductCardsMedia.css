@@ -1,0 +1,18 @@
+Венеция@media screen and (max-width: 1200px){
+    .ProductCard{
+        width: calc(33.3% - 1em);
+    }
+}
+
+@media screen and (max-width: 991px){
+    .ProductCard{
+        width: calc(50% - .5em);
+        margin: 0 .5em .5em 0;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .ProductCard h6{
+        font-size: 13px;
+    }
+}

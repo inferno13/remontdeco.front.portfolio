@@ -1,0 +1,74 @@
+@media screen and (max-width: 991px) {
+    .carousel .carousel-inner,
+    .carousel .carousel-item{
+
+        padding: 0 50px;
+
+    }
+}
+@media screen and (max-width: 785px) {
+
+    .carousel .carousel-inner,
+    .carousel .carousel-item{
+
+        padding: 0 30px;
+
+    }
+
+    .carouselDivImage {
+        width: 60px;
+        height: 60px;
+    }
+
+    .carouselImage {
+        width: 60px;
+    }
+
+    .carouselDivText {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+
+    .carouselTitle {
+        font-size: 14px;
+    }
+
+    .carouselText {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width: 490px) {
+
+    .carousel .carousel-inner,
+    .carousel .carousel-item{
+
+        padding: 0 20px;
+
+    }
+
+    .carouselDivImage {
+        width: 40px;
+        height: 40px;
+    }
+
+    .carouselImage {
+        width: 40px;
+    }
+
+    .carouselDivText {
+        padding: 2px 2px;
+        font-size: 10px;
+    }
+
+    .carouselTitle {
+        font-size: 9px;
+    }
+
+    .carouselText {
+        font-size: 8px;
+    }
+}
+
+.ProductsCards {
+    padding: 1.5em 0 !important;
+}

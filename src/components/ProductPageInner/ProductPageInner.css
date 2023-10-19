@@ -1,0 +1,85 @@
+.ProductPageInner{
+    padding: 3em 0;
+}
+
+/*header*/
+.ProductPageInner header h1{
+    font-weight: 800;
+    margin-bottom: .75em;
+}
+
+/*breadcrumbs*/
+.ProductPageInner header .breadcrumbs{
+    margin-bottom: 2.5em;
+    display: flex;
+    align-items: center;
+}
+
+.ProductPageInner header .breadcrumbs p,
+.ProductPageInner header .breadcrumbs a{
+    margin: 0;
+    color: var(--bs-dark);
+}
+.ProductPageInner header .breadcrumbs img{
+    margin: .2em .35em 0 .35em;
+}
+
+/*body*/
+.ProductPageInner .inner-body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ProductPageInner .inner-body img{
+    border-radius: var(--bs-radius);
+    width: 100%;
+}
+.ProductPageInner .inner-body .content{
+    width: 100%;
+}
+
+/*footer*/
+.ProductPageInner footer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 4em 0 1em;
+}
+
+.ProductPageInner footer h2{
+    width: 100%;
+    font-weight: 800;
+    margin-bottom: .75em;
+}
+
+.ProductPageInner footer .content{
+    width: 100%;
+    margin: 1.5em 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: pre-line !important;
+}
+.ProductPageInner footer .content.right{
+    flex-direction: row-reverse;
+}
+.ProductPageInner footer .content .text{
+    width: 60%;
+}
+.ProductPageInner footer .content .text h3{
+    font-weight: 700;
+    margin-bottom: .25em;
+}
+.ProductPageInner footer .content.vert .text h5{
+    font-size: 16px;
+}
+.ProductPageInner footer .content .text p{
+    text-align: left;
+}
+.ProductPageInner footer .content img,
+.ProductPageInner footer .content video{
+    width: calc(35% - 1em);
+    border-radius: var(--bs-radius);
+    box-shadow: 15px 15px 35px 0 rgba(112, 124, 151, 0.15);
+}

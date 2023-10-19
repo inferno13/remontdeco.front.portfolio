@@ -1,0 +1,29 @@
+/*load*/
+.AdvertisingLoad{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*.AdvertisingPage*/
+.AdvertisingPage{
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
+.AdvertisingPage .category{
+    margin-bottom: 2em;
+}
+.AdvertisingPage .category:last-child{
+    margin-bottom: 0;
+}
+
+.AdvertisingPage .category h2{
+    margin: 1em 0;
+    font-weight: 600;
+}
+.AdvertisingPage .category h2:first-child{
+    margin-top: 0;
+}

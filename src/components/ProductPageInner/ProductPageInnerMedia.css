@@ -1,0 +1,67 @@
+@media screen and (max-width: 991px) {
+    /*footer content card with vertical align*/
+    .ProductPageInner footer .content.vert{
+        flex-wrap: wrap;
+        flex-direction: column-reverse !important;
+    }
+    .ProductPageInner footer .content.vert .text{
+        width: 100%;
+        margin-top: 1em;
+        text-align: center;
+    }
+    .ProductPageInner footer .content.vert img{
+        width: 75%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .ProductPageInner .inner-body{
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+    .ProductPageInner .inner-body img{
+        width: 75%;
+        margin-bottom: 2em;
+    }
+    .ProductPageInner .inner-body .content{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .ProductPageInner .inner-body img{
+        width: 100%;
+        margin-bottom: 1em;
+    }
+
+    .ProductPageInner{
+        padding: 2em 0;
+    }
+
+    /*breadcrumbs*/
+    .ProductPageInner header .breadcrumbs{
+        margin-bottom: 1em;
+    }
+    .ProductPageInner header .breadcrumbs p,
+    .ProductPageInner header .breadcrumbs a{
+        font-size: 13px;
+    }
+
+    /*footer content*/
+    .ProductPageInner footer .content .text h5{
+        font-size: 14px;
+    }
+    .ProductPageInner footer .content .text h3{
+        font-size: 18px;
+    }
+
+    /*vertical align blocks*/
+    .ProductPageInner footer .content.vert img{
+        width: 100%;
+    }
+    .ProductPageInner footer .content.vert .text{
+        width: 100%;
+        margin-top: 1em;
+        text-align: left;
+    }
+}

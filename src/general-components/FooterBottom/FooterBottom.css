@@ -1,0 +1,41 @@
+.FooterBottom{
+    padding: 3em 0;
+    border-top:5px solid var(--bs-yellow);
+    background: var(--bs-white);
+}
+
+.FooterBottom .container{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+/*left block*/
+.FooterBottom .navbar-brand{
+    font-size: 18px;
+    margin-bottom: .5em;
+}
+.FooterBottom .left p.small{
+    opacity: .75;
+    line-height: 1.1;
+    font-weight: 300;
+}
+
+/*right*/
+.right{
+    display: flex;
+}
+.right .inner{
+    margin-left: 2em;
+}
+.right p.small{
+    text-align: right;
+    margin: 0;
+    opacity: .75;
+    font-weight: 300;
+}
+.right h6{
+    margin: 0;
+    font-weight: 700;
+    line-height: 1.1;
+}

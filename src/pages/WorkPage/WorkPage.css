@@ -1,0 +1,48 @@
+.WorkPage{
+    min-height: 80vh;
+    padding: 3em 0;
+}
+
+.WorkPage h1{
+    font-weight: 800;
+    margin-left: .25em;
+    margin-bottom: .5em;
+}
+
+.WorkPage p.text-muted{
+    max-width: 50%;
+}
+
+.WorkPage-Add {
+    float: right;
+}
+
+@media (max-width: 768px) {
+    .WorkPage p.text-muted{
+        max-width: 100%;
+    }
+}
+
+.WorkPage-Tr {
+    width: 100%;
+    display: flex;
+}
+.WorkPageTd-Logo {
+    border-radius: 5px;
+    width: 100px;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}
+.WorkPageTd-Image {
+    width: 80px;
+}
+.WorkPageTd-N {
+    border-radius: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    background: #fcfcfc;
+}

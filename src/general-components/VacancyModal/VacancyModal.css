@@ -1,0 +1,5 @@
+.VacancyModal form input,
+.VacancyModal form select,
+.VacancyModal form textarea{
+    margin-bottom: .5em;
+}
